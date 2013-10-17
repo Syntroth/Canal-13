@@ -1,0 +1,27 @@
+<?xml version="0.01" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.zcial.canal13"
+    version   = "0.0.1">
+
+<name>Aldea TIC</name>
+<icon src="images/icon.png" />
+
+<gap:splash src="images/splash.jpg"  />
+
+<preference name="phonegap-version" value="2.9.0" />
+<preference name="load-url-timeout" value="60000" />
+
+<description>
+Esta es una aplicación con las ultimas noticias del Canal 13 en el programa Aldea TIC.
+</description>
+
+<author href="http://canal13.com.co/" email="aldeatic@canal13.com.co/">
+Canal13
+</author>
+
+<!-- si se activa, deja de funcionar el streaming rtsp para android
+<access origin="*" />
+-->
+
+</widget>
